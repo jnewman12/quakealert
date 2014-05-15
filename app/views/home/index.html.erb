@@ -39,18 +39,22 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                   
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+
+                    <a href="#"><i id="facebook" class="fa fa-facebook"></i></a>
+                        
                     </li>
                     <li class="page-scroll">
-                        <a href="#download">Download</a>
+                        <a href="#"><i id"twitter" class="fa fa-twitter"></i></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#"><i id="mail" class="fa fa-envelope"></i></a>
                     </li>
+                  
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -64,7 +68,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">QuakeAlert</h1>
-                        <p class="intro-text">Early EarthQuake Warning System.</p>
+                        <p class="intro-text">Early Earth Quake Warning System.</p>
                         <div class="page-scroll">
                             <a href="#about" class="btn btn-circle">
                                 <i class="fa fa-angle-double-down animated"></i>
@@ -76,47 +80,94 @@
         </div>
     </section>
 
+
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About QuakeAlert</h2>
-                <p>QuakeAlert uses cutting edge technology powered by California Institute of Technology to detect earthquakes. All you have to do is download, tell us your location, and we'll do the rest.</p>
                 
             </div>
         </div>
     </section>
 
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download QuakeAlert</h2>
-                    <p>You can download QuakeAlert for $0.99.</p>
-                    <a href="apple_app_store" class="btn btn-default btn-lg">Visit Download Page</a>
+   <!-- FEATURES WRAP -->
+    <div id="features">
+        <div class="container">
+            <div class="row">
+            <!-- Don't need a header, but keeping it for now
+                <h1 class="centered">Earth Quakes on Your Phone</h1>
+            -->    
+                <br>
+                <br>
+                <div class="col-lg-6 centered">
+                    <img class="centered" src="assets/mobile.png" alt="">
+                </div>
+                
+                <div class="col-lg-6">
+                    <h3>Earth Quake Detection On Your Phone</h3>
+                    <br>
+                <!-- ACCORDION -->
+                    <div class="accordion ac" id="accordion3">
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <h4><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                University Approved
+                                </a></h4>
+                            </div><!-- /accordion-heading -->
+                            <div id="collapseOne" class="accordion-body collapse in">
+                                <div class="accordion-inner">
+                                <p>Partnering with incredibly talented people at Cal Tech, we have devised a way to send you early notice of earthquakes on your phone.</p>
+                                </div><!-- /accordion-inner -->
+                            </div><!-- /collapse -->
+                        </div><!-- /accordion-group -->
+                        <br>
+        
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <h4><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                Location Aware
+                                </a></h4>
+                            </div>
+                            
+                                <div class="accordion-inner">
+                                <p>All you have to do is sign up, tell us your location, and we'll alert you of any impending earthquakes over a certain size. And don't worry, all your data is safe with us, and we will never share it with anyone.</p>
+                                </div><!-- /accordion-inner -->
+                            </div><!-- /collapse -->
+                        </div><!-- /accordion-group -->
+                        <br>
+        
+                         <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <h4><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                Be prepared for the unknown
+                                </a></h4>
+                            </div>
+                            
+                                <div class="accordion-inner">
+                                <p>After an earth quake has passed, we'll give you a checklist of things to do so you know you're always prepared.</p>
+                                </div><!-- /accordion-inner -->
+                            </div><!-- /collapse -->
+                        </div><!-- /accordion-group -->
+                        <br>
+                        
+
+                        <br>            
+                    </div><!-- Accordion -->
                 </div>
             </div>
-        </div>
-    </section>
+        </div><!--/ .container -->
+    </div><!--/ #features -->
 
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Us</h2>
-                <p>Feel free to email us to provide some feedback, give us suggestions, or to just say hello!</p>
-                <p>feedback@getquakealert.com</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li><a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
+    <br />
+    <br />
+    <br />
+    <div id="f">
+        <div class="container">
+            <div class="row">
+                <p>Made with <i class="fa fa-heart"></i> by James Newman</p>
+            </div>  
         </div>
-    </section>
-
-    <div id="map"></div>
+    </div>
+  
 
     <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
