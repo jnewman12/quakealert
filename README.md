@@ -1,4 +1,4 @@
 quakealert
 ==========
 
-Site for QuakeAlert iOS app. 
+Site for QuakeAlert iOS app. Live on http://www.getquakealert.com
