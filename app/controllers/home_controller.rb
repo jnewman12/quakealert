@@ -5,7 +5,4 @@ class HomeController < ApplicationController
 
 	def welcome
 	end
-
-	def newer
-	end
 end
