@@ -17,19 +17,20 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    I think for this, they tried to make the href an anchor, not sure
 */
 
-    $('.page-scroll a').click(function(){
+    $('.page-scroll a').bind('click', function(event){
         $('html, body').animate({
             scrollTop: $("#test").offset().top
         }, 2000);
         event.preventDefault();
     });
 
-    $('.page-test a').click(function(){
+    $('.page-test a').click(function(event){
         $('html, body').animate({
             scrollTop: $("#test1").offset().top
-        }, 1500);
+        }, 2000);
         event.preventDefault();
     });
 

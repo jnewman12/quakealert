@@ -112,7 +112,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #74cfae;
+        background-color: #CC5500; /* background1 */
     }
 
     .navbar-custom.top-nav-collapse {
@@ -128,7 +128,7 @@ a:focus {
     text-align: center;
     color: #fff;
     background-image: asset-url('/assets/pic.jpg');
-    background-color: #74cfae;
+    background-color: #CC5500; /* background1 */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -297,7 +297,7 @@ body {
 /* Footer */
 #f {
     padding-top: 10px;
-    background-color: #74cfae;
+    background-color: #CC5500; /* background1 */
     right:50px
 }
 
@@ -316,21 +316,21 @@ body {
 }
 
 #features p {
-   color: #c0c0c0;
+   color: #c0c0c0; /*grey for writing */
    font-weight: 400;
 }
 
 #features h3 {
-    color: #74cdae;
+    color: #CC5500; /* former green */
     font-size: 30px;
 }
 
 .accordion-group a {
-    color: #74cdae;
+    color: #CC5500; /* former green */
 }
 
 #page_one {
-    
+
 }
 
 #page_two {
