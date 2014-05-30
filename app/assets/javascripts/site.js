@@ -22,13 +22,13 @@ $(function() {
 
     $('.page-scroll a').bind('click', function(event){
         $('html, body').animate({
-            scrollTop: $("#test").offset().top
-        }, 2000);
+            scrollTop: $("#features").offset().top
+        }, 1500);
         event.preventDefault();
     });
 
     $('.page-test a').click(function(event){
-        $('html, body').animate({
+        $('html, body').stop().animate({
             scrollTop: $("#test1").offset().top
         }, 2000);
         event.preventDefault();

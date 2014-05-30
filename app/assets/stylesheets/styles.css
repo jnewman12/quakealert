@@ -39,7 +39,7 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    color: #CC5500;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -206,6 +206,49 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
+/* button for after the main one */
+.btn-circle1 {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #CC5500;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #CC5500;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+
+}
+
+.btn-circle1:hover,
+.btn-circle1:focus {
+    outline: 0;
+    color: #CC5500;
+    background: rgba(255,255,255,.1);
+}
+
+.page-test .btn-circle1 i.animated {
+     -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.page-test .btn-circle1:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
@@ -320,6 +363,10 @@ body {
    font-weight: 400;
 }
 
+#features {
+    padding: 100px;
+}
+
 #features h3 {
     color: #CC5500; /* former green */
     font-size: 30px;
@@ -329,8 +376,8 @@ body {
     color: #CC5500; /* former green */
 }
 
-#page_one {
-
+.page_one {
+    padding: 100px;
 }
 
 #page_two {
