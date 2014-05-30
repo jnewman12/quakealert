@@ -220,7 +220,6 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-
 }
 
 .btn-circle1:hover,
@@ -228,6 +227,7 @@ a:focus {
     outline: 0;
     color: #CC5500;
     background: rgba(255,255,255,.1);
+    text-align: center;
 }
 
 .page-test .btn-circle1 i.animated {
@@ -247,6 +247,11 @@ a:focus {
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
 }
+
+.wrapper {
+    text-align: center;
+}
+
 
 
 @-webkit-keyframes pulse {    
