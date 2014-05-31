@@ -27,10 +27,11 @@ $(function() {
         event.preventDefault();
     });
 
+
     $('.page-test a').click(function(event){
         $('html, body').stop().animate({
             scrollTop: $("#test1").offset().top
-        }, 2000);
+        }, 100);
         event.preventDefault();
     });
 

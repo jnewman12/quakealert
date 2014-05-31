@@ -89,70 +89,93 @@
         </div>
     </section>
 
-   <!-- Features Wrap -->
+   <!-- FEATURES WRAP -->
     <div id="features">
         <div class="container">
-            <div class="row">  
-                <br>
-                <br>
-                <div class="col-lg-6 centered">
-                    <img class="centered" src="assets/mobile.png" alt="">
+        <!-- Page One -->
+        <section>
+            <div class="row" id="page_one">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 style="color:#CC5500;">Government and University Approved</h2>
+                    <p class="lead">Partnering with incredibly talented peopel at Berekeley and Cal Tech, we have devised a way to senf you early notice of earthquakes...straight to your phone so you're always prepared.</p>
                 </div>
-                
-                <div class="col-lg-6">
-                    <h3>Earth Quake Detection On Your Phone</h3>
-                    <br>
-                <!-- ACCORDION -->
-                    <div class="accordion ac" id="accordion3">
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <h4><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                University Approved
-                                </a></h4>
-                            </div><!-- /accordion-heading -->
-                            <div id="collapseOne" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>Partnering with incredibly talented people at Cal Tech, we have devised a way to send you early notice of earthquakes on your phone.</p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
-        
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <h4><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                Location Aware
-                                </a></h4>
-                            </div>
-                            
-                                <div class="accordion-inner">
-                                <p>All you have to do is sign up, tell us your location, and we'll alert you of any impending earthquakes over a certain size. And don't worry, all your data is safe with us, and we will never share it with anyone.</p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
-        
-                         <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <h4><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                Be prepared for the unknown
-                                </a></h4>
-                            </div>
-                            
-                                <div class="accordion-inner">
-                                <p>After an earth quake has passed, we'll give you a checklist of things to do so you know you're always prepared.</p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
-                        
-
-                        <br>            
-                    </div><!-- Accordion -->
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="assets/ipad.png" alt="">
                 </div>
+                <div class="page-one">
             </div>
-        </div><!--/ .container -->
-    </div><!--/ #features -->
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <!-- leaving out additional button for now 
+            <div class="wrapper">
+            <div class="page-test">
+                            <a href="#about" class="btn btn-circle1" id="button">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+            </div> -->
+            </div>
+            <br/>
+            <br/>
+            <br/>
+        </section>    
+
+     <!-- End Page One -->
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+     <!-- Start Page 2 -->
+     <!-- for some reason leaving this div unclosed makes this
+     work to how I need it...who knows why T_T -->
+
+<br/>
+<br/>
+<section>
+<div id="test1">
+<div class=
+     <div class="col-lg-6">
+        
+          <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <h2 style="color:#CC5500;">The First US Earthquake Early Warning on Your Phone</h2>
+                    <p>What would you do with up to 3 minutes warning, and you could you protect?</p>
+                   
+            </div>
+
+                <!-- Image -->
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+             <img class="img-responsive" src="assets/doge.png" alt="">
+            </div> <!-- end image -->
+          </div>
+</div> 
+</section>         
+      <!-- End Page 2 --> 
+
+
+                <br />
+                <br />
+                <br />
+                <br />   
+      <!-- Start Page 3 -->
+   <div class="row">
+     <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+         <div class="clearfix"></div>
+            <h2 class="section-heading" style="color:#CC5500;">Be Prepared for the Unknown</h2>
+                    <p class="lead">After an Earth Quake has passed, we'll give you a list of things to do, so you know you're always prepared for anything that comes your way.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="assets/phones.png" alt="">
+                </div>
+    </div>  <!-- end of Page 3 -->         
+     </div><!-- End of Container -->
+    </div> <!-- end of features -->
 
     <br />
     <br />
@@ -172,7 +195,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 
-    <!-- Custom Theme JavaScript -->
+    <!-- My JavaScript -->
     <%= javascript_include_tag "site.js" %>
 
 </body>
